@@ -8,7 +8,7 @@ var pwar_against = [];
 var inner_against = [];
 var disco_against = [];
 
-var view_mode = "inner";
+var view_mode = "all";
 
 function preload(){
 	data = loadTable('matches.csv', 'csv', 'header');
